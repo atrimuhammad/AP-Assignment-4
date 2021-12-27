@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="235.0" layoutY="60.0" prefHeight="28.0" prefWidth="174.0" text="Election Commision Dashboard" />
+      <Button fx:id="addnewcandidatebutton" layoutX="206.0" layoutY="132.0" mnemonicParsing="false" onAction="#addnewcandidate" text="Add New Candidate" />
+      <Button fx:id="addnewpartybutton" layoutX="206.0" layoutY="168.0" mnemonicParsing="false" onAction="#addnewparty" text="Add New Party" />
+      <Button fx:id="percofvotespartybutton" layoutX="205.0" layoutY="200.0" mnemonicParsing="false" onAction="#perofvotesparty" text="Percentage of Votes Received by each party" />
+      <Button fx:id="displayresultsbutton" layoutX="206.0" layoutY="235.0" mnemonicParsing="false" onAction="#displayresults" text="Display Result" />
+      <Button layoutX="502.0" layoutY="346.0" mnemonicParsing="false" onAction="#GoToLoginPage" text="Exit" />
+      <Button layoutX="206.0" layoutY="270.0" mnemonicParsing="false" onAction="#voterswhovoted" text="Voters Who Voted" />
+   </children>
+</AnchorPane>

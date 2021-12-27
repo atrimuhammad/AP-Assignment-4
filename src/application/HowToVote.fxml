@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="70.0" layoutY="79.0" prefHeight="21.0" prefWidth="427.0" text="Please follow below mentioned steps to vote;" />
+      <Label layoutX="87.0" layoutY="100.0" prefHeight="21.0" prefWidth="427.0" text="1. Enter your CNIC # (without dashes)" />
+      <Label layoutX="87.0" layoutY="121.0" prefHeight="21.0" prefWidth="427.0" text="2. Enter your exact full name (as per your CNIC)" />
+      <Label layoutX="87.0" layoutY="142.0" prefHeight="21.0" prefWidth="427.0" text="3. After entering your CNIC &amp; Name, click on Next." />
+      <Label layoutX="87.0" layoutY="200.0" prefHeight="21.0" prefWidth="427.0" text="P.S: You can only vote once and for only 1 candidate. So, please vote carefully." />
+      <Label layoutX="87.0" layoutY="163.0" prefHeight="21.0" prefWidth="466.0" text="4. To cast vote for your favorite candidate, press 'Vote' Button next to that candidate." />
+      <Button layoutX="35.0" layoutY="32.0" mnemonicParsing="false" onAction="#GoToVoterLoginPage" text="Back" />
+   </children>
+</AnchorPane>
